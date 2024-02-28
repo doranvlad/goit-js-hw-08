@@ -93,9 +93,9 @@ gallery.insertAdjacentHTML("beforeend", galleryItemsList.join(''));
 
 // #region Add listener and open modal
 
-gallery.addEventListener('click', inImgClick);
+gallery.addEventListener('click', onImgClick);
 
-function inImgClick(event) {
+function onImgClick(event) {
 
   event.preventDefault()
 
